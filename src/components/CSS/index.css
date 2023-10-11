@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h4 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+#content {
+  margin-top: 20px;
+}
+
+#header {
+  font-family: cursive;
+  font-size: 25px;
+  display: contents;
+
+}
+
+#cusitalic {
+  color: white;
+}
+
+#cusitalicicon {
+  transform: skew(20deg);
+  -webkit-transform: skew(20deg);
+  margin-bottom: 20;
+
+}
+
+#Test2 {
+  height: 100vh;
+  background: linear-gradient(#9e78c4, rgb(163, 123, 223));
+  overflow-x: hidden;
+  color: rgba(231, 227, 227, 0.856);
+}
+
+#Test1 {
+  height: 100vh;
+  background: linear-gradient(#9e78c4, rgb(163, 123, 223));
+  overflow-x: hidden;
+  color: rgba(231, 227, 227, 0.856);
+}
+
+#favorite {
+  margin-top: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#testpage {
+  height: calc(100vh - 64px);
+  background: linear-gradient(#9e78c4, rgb(163, 123, 223));
+  overflow-x: hidden;
+  color: rgba(231, 227, 227, 0.856);
+
+}
+
+#test {
+  margin-top: 20px;
+
+}
+
+.swal-overlay {
+  z-index: 100000000000;
+}
+
+
+body {
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 20px 20px transparent;
+  border: solid 14px transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 20px 20px lightgray;
+  border: solid 5px transparent;
+  border-radius: 14px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  box-shadow: inset 0 0 20px 20px rgb(156, 156, 156);
+  border: solid 5px transparent;
+  border-radius: 14px;
+}
+
+#structure {
+  border-radius: 3%;
+ 
+}
